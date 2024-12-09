@@ -2,5 +2,6 @@ alembic
 asyncpg
 fastapi
 sqlalchemy 
-pydantic-settings
+pydantic
 python-dotenv
+uvicorn
