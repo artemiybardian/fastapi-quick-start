@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Use Docker Compose to build and start the application:
 
 ```bash
-docker-compose up --build
+docker-compose up --build -d
 ```
 
 ### Step 4: Create a Database Migration
