@@ -2,9 +2,9 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from typing import Annotated
-from database import get_session
+from .database import get_session
 from users.models import User
-from schemas import UserSchema
+from .schemas import UserSchema
 
 
 app = FastAPI()
